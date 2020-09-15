@@ -12,9 +12,9 @@
 .titleBreakfast {
     display: flex;
     align-items: center;
-    font-size: 4em;
+    font-size: 2.6em;
     font-family: 'Amaranth', sans-serif;
-    margin-left: -100px; 
+    margin-left: -100px;
 }
 
 .iconHeader {
@@ -94,13 +94,13 @@
 
 .saveInformation {
     align-self: flex-end;
-    width: 200px;
-    height: 74px;
+    width: 114px;
+    height: auto;
     background: #ED3367;
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25), inset 8px 8px 5px rgba(0, 0, 0, 0.25);
     color: #FFFFFF;
     font-family: 'Amaranth', sans-serif;
-    font-size: 28px;
+    font-size: 1.4em;
     text-align: center;
     border-radius: 10px;
     margin-right: 65px;
