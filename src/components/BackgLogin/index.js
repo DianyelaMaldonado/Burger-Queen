@@ -4,9 +4,9 @@ import { Link } from 'react-router-dom';
 import styles from './BackgLogin.module.css';
 
 const BackgLogin = () => (
-    
+
     <div className={styles.containerLogin}>
-        <Logo nameClass={"logoLogin"} />
+        <Logo nameClass={styles.loglogin} />
         <div className={styles.contentWrapper}>
             <div className={styles.wraperSeccionBottons}>
                 <Link to="/waiter">
@@ -14,7 +14,7 @@ const BackgLogin = () => (
                     <button type="button" className={styles.buttonWaiter}>Mesero</button>
                 </Link>
             </div>
-            
+
             <div className={styles.wraperSeccionBottons}>
                 <Link to="/kitchenregister">
                     <span className={styles.iconHatCheff}></span>
