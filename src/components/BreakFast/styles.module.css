@@ -35,7 +35,7 @@
 .container {
     display: flex;
     flex-direction: row;
-    max-height: 690px;
+    align-items: end;
 }
 
 .menuBreakfast {
@@ -58,10 +58,9 @@
 
 .bgMenu {
     background: #FFE168;
-    width: 300px;
-    height: 300px;
-    margin-block-end: 20px;
-    margin-right: 20px;
+    width: 160px;
+    height: auto;
+    margin-right: 30px;
     text-align: center;
     border-radius: 14px;
     font-size: 1.5em;
@@ -72,6 +71,7 @@
 .bgMenu h3 {
     text-align: center;
     margin-top: 18px;
+    height: 107px;
 
 }
 
@@ -104,4 +104,40 @@
     text-align: center;
     border-radius: 10px;
     margin-right: 65px;
+}
+
+
+
+
+@media only screen 
+and (min-width: 1024px) 
+and (max-height: 1366px) 
+and (orientation: landscape) 
+and (-webkit-min-device-pixel-ratio: 1.5){
+  
+  .container {
+    display: flex;
+    flex-direction: row;
+    max-height: 690px;
+    }
+
+    .bgMenu {
+    background: #FFE168;
+    width: 300px;
+    height: 300px;
+    margin-block-end: 20px;
+    margin-right: 20px;
+    text-align: center;
+    border-radius: 14px;
+    font-size: 1.5em;
+    border: 1px solid hsl(0,0%,20%);
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25), inset 8px 8px 8px rgba(0, 0, 0, 0.25);
+    }
+
+    .bgMenu h3 {
+        text-align: center;
+        margin-top: 18px;
+
+    }
+  
 }
