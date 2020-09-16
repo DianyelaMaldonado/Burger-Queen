@@ -8,9 +8,9 @@ El nombre de la aplicación es: <br>
 
 ** __SI  QUIERES VER CÓMO FUNCIONA LA APP ENTRA A ESTE LINK:__ 
 <br>
-Debes tener en cuenta que la app por el momento está diseñada para **IPAD-PRO**, por lo que cuando entres al link da click al boton derecho, seleccionas inspeccionar y en el select que dice RESPONSIVE selecciona **IPAD-PRO**.
+Está visible tanto en **Desktop** como **IPAD-PRO**, por lo que si quieres verla en Ipad-pro cuando entres al link da click al boton derecho, seleccionas inspeccionar y en el select que dice RESPONSIVE selecciona **IPAD-PRO**.
 <br>
-  https://esthermanrique.github.io/CDMX009-BurgerQueen
+  https://dianyelamaldonado.github.io/Burger-Queen/#/
 
 **La finalidad de la aplicación**
 
