@@ -1,11 +1,11 @@
 .headerWrapperAccount {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 .logoWaiterAccoun {
-    width: 30%;
+    width: 15%;
 }
 
 .contentDivision {
@@ -56,4 +56,21 @@ margin-bottom: 50px;
 
 .routeButtonsAccount a {
         align-self: center;
+}
+
+@media only screen 
+and (min-width: 1024px) 
+and (max-height: 1366px) 
+and (orientation: landscape) 
+and (-webkit-min-device-pixel-ratio: 1.5){
+
+  .headerWrapperAccount {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    }
+  
+    .logoWaiterAccoun {
+    width: 35%;
+}
 }

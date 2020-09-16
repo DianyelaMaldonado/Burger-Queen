@@ -1,4 +1,18 @@
 .logoWrapper {
+    padding: 10px;
+    text-align: left;
+}
+
+
+@media only screen 
+and (min-width: 1024px) 
+and (max-height: 1366px) 
+and (orientation: landscape) 
+and (-webkit-min-device-pixel-ratio: 1.5){
+
+ .logoWrapper {
     padding: 35px;
     text-align: left;
+    }
+
 }
