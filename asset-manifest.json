@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/Burger-Queen/static/css/main.e8f94d41.chunk.css",
+    "main.js": "/Burger-Queen/static/js/main.1e540a88.chunk.js",
+    "main.js.map": "/Burger-Queen/static/js/main.1e540a88.chunk.js.map",
+    "runtime-main.js": "/Burger-Queen/static/js/runtime-main.75dfe579.js",
+    "runtime-main.js.map": "/Burger-Queen/static/js/runtime-main.75dfe579.js.map",
+    "static/css/2.af3c1da9.chunk.css": "/Burger-Queen/static/css/2.af3c1da9.chunk.css",
+    "static/js/2.34b9a76f.chunk.js": "/Burger-Queen/static/js/2.34b9a76f.chunk.js",
+    "static/js/2.34b9a76f.chunk.js.map": "/Burger-Queen/static/js/2.34b9a76f.chunk.js.map",
+    "index.html": "/Burger-Queen/index.html",
+    "precache-manifest.832b2c90f3be5c372e7837059fe46c3e.js": "/Burger-Queen/precache-manifest.832b2c90f3be5c372e7837059fe46c3e.js",
+    "service-worker.js": "/Burger-Queen/service-worker.js",
+    "static/css/2.af3c1da9.chunk.css.map": "/Burger-Queen/static/css/2.af3c1da9.chunk.css.map",
+    "static/css/main.e8f94d41.chunk.css.map": "/Burger-Queen/static/css/main.e8f94d41.chunk.css.map",
+    "static/js/2.34b9a76f.chunk.js.LICENSE.txt": "/Burger-Queen/static/js/2.34b9a76f.chunk.js.LICENSE.txt",
+    "static/media/BackgLogin.module.css": "/Burger-Queen/static/media/hat-chef.dae19e72.png",
+    "static/media/Logo_BQ.png": "/Burger-Queen/static/media/Logo_BQ.0268b4ca.png",
+    "static/media/Trastes.jpg": "/Burger-Queen/static/media/Trastes.0f0c7370.jpg",
+    "static/media/burger-lunch.jpg": "/Burger-Queen/static/media/burger-lunch.40a3a3da.jpg",
+    "static/media/chess.jpg": "/Burger-Queen/static/media/chess.c4b1a556.jpg",
+    "static/media/coffe-break.png": "/Burger-Queen/static/media/coffe-break.7e790d20.png",
+    "static/media/cola.jpg": "/Burger-Queen/static/media/cola.a5b4a2c3.jpg",
+    "static/media/cuadrado-bordes.png": "/Burger-Queen/static/media/cuadrado-bordes.9f3d0fd9.png",
+    "static/media/doble-burger.jpg": "/Burger-Queen/static/media/doble-burger.f2c4647d.jpg",
+    "static/media/eggs.jpg": "/Burger-Queen/static/media/eggs.5eaa6e4c.jpg",
+    "static/media/styles.module.css": "/Burger-Queen/static/media/salsas.4c8a0914.png",
+    "static/media/fries.jpg": "/Burger-Queen/static/media/fries.1fe2ad01.jpg",
+    "static/media/onion-rings.jpg": "/Burger-Queen/static/media/onion-rings.86affa9d.jpg",
+    "static/media/pink-circle.png": "/Burger-Queen/static/media/pink-circle.85efadd3.png",
+    "static/media/simple-burger.jpg": "/Burger-Queen/static/media/simple-burger.8ac4d3d5.jpg",
+    "static/media/waiter.png": "/Burger-Queen/static/media/waiter.6d902638.png",
+    "static/media/water-bottle.jpeg": "/Burger-Queen/static/media/water-bottle.668c04ae.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.75dfe579.js",
+    "static/css/2.af3c1da9.chunk.css",
+    "static/js/2.34b9a76f.chunk.js",
+    "static/css/main.e8f94d41.chunk.css",
+    "static/js/main.1e540a88.chunk.js"
+  ]
+}
