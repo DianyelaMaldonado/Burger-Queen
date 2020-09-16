@@ -1,4 +1,4 @@
-import React, { useEffect, useState }  from 'react';
+import React, { useEffect, useState } from 'react';
 import db from '../../firebase';
 import Logo from '../Logo/Logo';
 import Boton from '../Boton/Boton';
@@ -10,25 +10,25 @@ import KitchenTable from '../ReusableTable/kitchenTable';
 
 const Kitchen = ({ client, setClient }) => {
 
-    const [order, setOrder ] = useState();
-    
+    const [order, setOrder] = useState();
+
     const { orderId } = useParams()
-    
+
     useEffect(() => {
-        db.collection('ordersfood').doc(orderId).get().then((querySnapshot) => {       
-            setOrder(querySnapshot.data()); 
+        db.collection('ordersfood').doc(orderId).get().then((querySnapshot) => {
+            setOrder(querySnapshot.data());
         });
     }, [])
-    
+
     console.log('Este es el log', order);
     const hablar = (texto) => speechSynthesis.speak(new SpeechSynthesisUtterance(texto));
-    
+
     if (!order) {
         return <div>Loading...</div>
     }
-    
+
     let texto = `La orden número ${order.numorder} de la mesa ${order.numtable} está lista enviando notificación a ${order.namewaiter}`
-    
+
     return (
         <div>
             <div className={styles.headerWrapper}>
@@ -47,7 +47,7 @@ const Kitchen = ({ client, setClient }) => {
                 </div>
 
                 <div className={styles.secondDivision}>
-                   {order && <KitchenTable client={client} setClient={setClient} order={order} />} 
+                    {order && <KitchenTable client={client} setClient={setClient} order={order} />}
                 </div>
 
                 <div className={styles.thirdDivision}>
@@ -57,15 +57,17 @@ const Kitchen = ({ client, setClient }) => {
                     </div>
 
                     <div className={styles.printAccount}>
-                        <button  onClick={() => hablar(texto)} >
+                        <button onClick={() => hablar(texto)} >
                             <img src={Bell} alt="" className={styles.printImg} />
-                        </button>   
+                        </button>
                     </div>
 
                     <div className={styles.departureInTime}>
                         <p>Hora de Salida</p>
                         <span className={styles.firstNumberWrapper}>4:20pm</span>
                     </div>
+
+
 
                 </div>
             </div>

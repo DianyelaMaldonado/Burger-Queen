@@ -5,7 +5,7 @@ import Select from 'react-select';
 import Boton from '../Boton/Boton';
 import { Link } from 'react-router-dom';
 import styles from './styles.module.css';
-import DateTime from '../DateTime/DateTime';
+import DateInitWaiter from '../DateTime/DateInitWaiter';
 import ImgTable from '../../assets/imgs/Table.png';
 import ImgWaiter from '../../assets/imgs/waiter.png';
 import Lunch from '../../assets/imgs/burger-lunch.jpg';
@@ -30,14 +30,14 @@ const InitWaiters = ({ client, setClient, setNumorder }) => {
   const handleOrder = (e) => {
     e.preventDefault();
     db.collection('orders').add(client)
-    .then(() => {
-      console.log('orden de initwaiter guardada en Firestore exitosamente');
-      return db.collection('ordersfood').get()
-  })
-  .then((snapshot) => {
-      console.log('Generando No. Orden');
-      setNumorder(snapshot.size + 1)
-  })
+      .then(() => {
+        console.log('orden de initwaiter guardada en Firestore exitosamente');
+        return db.collection('ordersfood').get()
+      })
+      .then((snapshot) => {
+        console.log('Generando No. Orden');
+        setNumorder(snapshot.size + 1)
+      })
   }
 
   return (
@@ -47,9 +47,9 @@ const InitWaiters = ({ client, setClient, setNumorder }) => {
         <Logo nameClass={"logoSmallInitWaiter"} />
         <div className={styles.reg_date}>
           <Link to="waiterregister">
-          <Boton text={"Registros"} allstyles={"buttonGoRgWaiter "} />
+            <Boton text={"Registros"} allstyles={"buttonBackWaiter"} />
           </Link>
-          <DateTime />
+          <DateInitWaiter />
         </div>
       </div>
 
@@ -62,7 +62,7 @@ const InitWaiters = ({ client, setClient, setNumorder }) => {
               className={styles.nameWaiter}
               name="namewaiter"
               placeholder="Seleccione su Nombre"
-              onChange={(option) => setClient({ ...client, namewaiter: option.value })}              
+              onChange={(option) => setClient({ ...client, namewaiter: option.value })}
             />
           </div>
 
@@ -110,7 +110,7 @@ const InitWaiters = ({ client, setClient, setNumorder }) => {
           <div className={styles.footerWaiter}>
 
             <Link to="/login">
-              <Boton text={"Salir"} allstyles={"buttonOutWaiter"} />
+              <Boton text={"Salir"} allstyles={"buttonWaiterOut"} />
             </Link>
 
             <button onClick={handleOrder} className={styles.SaveInformation}>Guardar Datos</button>
