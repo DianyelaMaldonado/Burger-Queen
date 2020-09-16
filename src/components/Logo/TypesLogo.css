@@ -36,5 +36,11 @@ and (-webkit-min-device-pixel-ratio: 1.5){
         max-width: 35%;
     }
 
+    .logoSmallLunch {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+}
+
 }
 
